@@ -1,0 +1,458 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #f2f2f2;
+}
+.header{
+	background-color: #333;
+	width: 100%;
+	float: left;
+}
+.banner{
+	background-color: #555;
+	width: 100%;
+	float: left;
+	margin: auto;
+}
+.mynavbar{
+	margin-bottom: 0px;
+	border-radius: 0;
+}
+
+.myhover ul li:hover{
+	background: #3b123b;
+}
+/* .myhover ul login :hover a{
+	    text-decoration: 
+} */
+.myhover ul li:hover ul{
+	 display: block; 
+	
+}
+.myhover ul li ul :hover a{
+	background-color: #666657;
+	
+}
+.myhover ul li{
+	font-size: 15px;
+}
+.active{
+	height: 100%;
+}
+.dropdown{
+	height: 100%;
+}
+.dropdown-menu{
+	/* padding-left: 0px;
+	width: auto */
+}
+.nav{
+}
+.dropdown-menu{
+	/* width: 363px; */
+}
+.dropdown-toggle{
+	/* padding-top: 16px; */
+} 
+.dropdown-menu li{
+	/* float: left;
+	width: 120px; */
+	
+}
+.dropdown-menu li a{
+	/* float: left; */
+}
+#menu-1{
+	width: auto;
+}
+#menu-1 li{
+	width: 100%;
+}
+.panel-body .list-film {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.list-film-var a img {
+	margin: 8px 0px 0px 4px;
+	
+}
+.list-film-var{
+	position: relative;
+}
+.film-item{
+	color: #FFF;
+	padding: 10px;
+	/* background-image: linear-gradient(
+		transparent,rgba(0,0,0,.1),rgba(0,0,0,.3),
+		rgba(0,0,0,.5),rgba(0,0,0,.7),rgba(0,0,0,.9)); */
+}
+#my-size{
+	
+}
+.film-item-thumbnail{
+}
+.thumbnail{
+	box-shadow: 0 1px 4px rgba(101, 119, 130, 0.5);
+    padding: 15px;
+    margin-bottom: 20px;
+    background: rgba(245, 245, 245, 0.48);
+
+}
+.panel-body{
+	padding: 5px;
+}
+#panel-1{
+	padding-left: 20px;	
+}
+#panel{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.main{
+	width: 100%;
+	/* padding: 0px; */
+}
+#panel  li{
+	background: white;
+}
+.panel-body ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+.panel-body ul li {
+	margin-top: 5px;
+}
+.panel-body ul li a{
+	color: #111;
+	font-weight: bold
+}
+.title-name{
+	font-size: 15px;
+	font-weight: bold;
+}
+.caption{
+}
+.content-left{
+	float: left;
+	width: 50%;
+	color: #b2008d;
+}
+.content-right{
+	width: 50%;
+	overflow: hidden;
+	text-align: right;
+	float: right;
+	color: #7d7d7d;
+	text-decoration: line-through;
+}
+.caption-botton{
+	overflow: hidden;
+	padding: 4px 4px 0px 4px;
+	font-size: 18px;
+}
+.main-full{
+
+}
+.body{
+	background: #bab3b2
+}
+.myCol{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.myCol .img{
+	height: 300px;
+	overflow: hidden
+}.myCol .caption h3 a{
+	font-size: 12px
+}
+.footer-center{
+	color: #fff
+}
+.social ul{
+	list-style-type: none;
+}
+.box-footer ul{
+	list-style-type: none;
+	padding-left: 0px
+}
+.footer-copyright{
+	padding: 0px;
+	text-align: center
+}
+.footer-copyright p{
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+.sale{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: #d80027;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 12px;
+    color: #fff;
+    margin-right: 10px	
+}
+.item-botton{
+	text-align: center;
+}
+.row-header{
+	text-align: center;
+	margin-top: 40px;
+	padding: 10px;
+	overflow: hidden;
+}
+.title-content{
+	font-size: 17px;
+	font-weight: bold;
+}
+.text-content{
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+hr{
+	border-top: 1px solid hsla(210, 50%, 60%, 1)
+}
+.hr-thumbnail{
+	border-top: 1px solid #111;
+}
+.panel-body{
+	padding: 0px;
+}
+
+.panel-success{
+	box-shadow: 0 1px 4px rgba(101, 119, 154, 1);
+    margin-bottom: 20px;
+    background: rgba(245, 245, 245, 0.48);
+}
+#container a{
+	font-size: 16px;
+}
+.icon-address img{
+	padding-right: 6px;
+	width: 32px;
+	height: 32px;
+}
+.icon-content p img{
+	width: 40px;
+	height: 40px;
+}
+#icon-panel{
+	padding-right: 5px;
+}
+.form-group p{
+	text-align: center;
+}
+.media-heading{
+	font-size:  16px;
+}
+
+	/* css modal form-login */ /* cop chỗ này vào css (chú thích vào) */
+.modal-body-2{
+	padding: 20px 40px;
+}
+ .modal-group{
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.left-group{
+	width: 50%;
+	float: left;
+}
+.right-group{
+	width: 50%;
+	float: left;
+}
+.left-group label{
+	width: 100%;
+	margin-bottom: 3px;
+
+}
+.left-group select{
+	width: 74px;
+	height: 36px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #00000000;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.right-group label{
+	width: 100%;
+	margin-bottom: 3px;
+}
+/* input */
+.modal-body-2 .form-control{
+	width: 90%;
+}
+#submit-bottom{
+	border: 0;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	background-color: red;
+	height: 36px;
+}
+/* phần mới thêm k cop */
+.btn-botton{
+	background: #58b3f0;
+    color: #fff;
+    text-transform: uppercase;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 10px 35px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: background-color 100ms ease-in-out, color 100ms ease-in-out, border-color 100ms ease-in-out;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* phần ms thêm */
+.title-top{
+	margin-top: 0px;
+	margin-left: 20px;
+	
+}
+.title-heading{
+	margin-left: 20px;
+	margin-top:30px;
+	text-decoration: none;
+}
+.login a{
+	padding-top: 5px;
+	font-size: 16px;
+}
+.login-1 a img{
+	margin: 0px 15px;
+}
+#gioHang-full{
+	padding: 20px 30px;
+	overflow: hidden;
+}
+#gioHang{
+	margin-bottom: 20px;
+}
+.row{
+	margin-top: 35px;
+}
+
+.nav .dropdown-menu{
+	top: 55px;
+
+}
+.media-body a{
+	color: #444444;
+}
+.media-body a h4{
+	
+}
+.carousel-inner .item img{
+	width: 100%;
+}
+.blog-item-image img{
+	width: 100%;
+}
+.blog{
+	margin-bottom: 30px;
+}
+#media-title{
+	margin-top: 20px
+}
+.panel-2{
+	border-radius: 0px;
+	text-align: center;
+	color: orange;
+	overflow: hidden;
+}
+.panel-3{
+	margin-top: 76px;
+}
+.panel-heading {
+	background-color: rgba(105,105,105,0.8);
+
+}
+.pull-left-1 {
+	width: 100px;
+}
+#pull-left-2 {
+    width: 50px;
+}
+.pull-1	{
+	width: 100%;
+	margin-bottom: 0px;
+}
+#media{
+	padding-left: 10px;
+	border-bottom: 1px solid #5dbede
+}
+#lua-chon {
+	font-size: 22px;
+}
+#lua-chon h4 {
+	color: orange;
+	font-size: 20px;
+ }
+ .breadcrumb {
+ 	padding-top: 30px;
+ 	overflow: hidden;
+ }
+ #size{
+ 	margin-right: 15px;
+ 	font-size: 28px;
+	color: #b2008d;
+
+ }
+ #size-1{
+ 	font-size: 16px;
+	color: #7d7d7d;
+
+ }
+ #size-2{
+ 	margin-top: 10px;
+ }
+ #btn-gio-hang{
+ 	border-radius: 3px;
+    margin-right: 15px;
+    padding-left: 45px;
+    border: none;
+    position: relative;
+    display: inline-block;
+    background: #7dc558;
+    font-weight: bold;
+    height: 48px;
+    width: 200px;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+ }
+ #btn-gio-hang:hover {
+ 	background: #49aa47;
+	color: #FFf
+ }
+ #icon-1{
+ 	   
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 3px 0 0 3px;
+ }
+ #icon-1 img{
+	padding-top: 8px;
+ }
+#pro_sku{
+	font-size: 16px
+}
